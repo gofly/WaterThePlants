@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智能浇花</string>
+    <string name="conn_connecting">正在连接服务器…</string>
+    <string name="conn_connected">已连接至服务器</string>
+    <string name="conn_disconnected">连接已断开</string>
+    <string name="conn_reconnecting">连接断开，正在尝试重连…</string>
+    <string name="conn_failed">连接失败: %1$s</string>
+
+    <string name="toast_no_device">当前列表暂无在线设备</string>
+    <string name="toast_refresh_sent">已发送状态刷新请求</string>
+    <string name="toast_send_failed">发送失败: %1$s</string>
+    <string name="toast_cmd_delivered">控制指令已送达</string>
+    <string name="toast_sub_failed">订阅失败: %1$s</string>
+    <string name="toast_not_ready">连接未就绪，无法刷新</string>
+    <string name="toast_status_updated">设备 [%1$s] 状态已刷新: %2$s</string>
+
+    <string name="title_pump_list">浇花设备列表 (%1$d)</string>
+    <string name="text_device_id">设备ID: %1$s</string>
+    <string name="text_no_device">暂无在线设备，等待设备上报状态…</string>
+    <string name="btn_start_water">开始浇水</string>
+    <string name="btn_stop_water">停止浇水</string>
+    <string name="btn_start_confirm">确定</string>
+
+    <!-- 动态状态本地化 -->
+    <string name="status_label">状态: </string>
+    <string name="status_offline">离线</string>
+    <string name="status_idle">空闲</string>
+    <string name="status_refreshing">刷新中</string>
+    <string name="status_watering">正在浇水</string>
+    <string name="status_watering_with_time">正在浇水 (剩余 %1$s 秒)</string>
+    <string name="status_unknown">未知状态 (%1$s)</string>
+
+    <!-- 弹窗 -->
+    <string name="dialog_title">设置浇水参数</string>
+    <string name="dialog_target">目标设备: %1$s</string>
+    <string name="dialog_duration">浇水时长: %1$d 秒</string>
+    <string name="dialog_cancel">取消</string>
+</resources>

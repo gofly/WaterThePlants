@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Watering</string>
+    <string name="conn_connecting">Connecting to server...</string>
+    <string name="conn_connected">Connected to server.</string>
+    <string name="conn_disconnected">Disconnected</string>
+    <string name="conn_reconnecting">Connection lost, reconnecting…</string>
+    <string name="conn_failed">Initial connection failed: %1$s</string>
+
+    <string name="toast_no_device">No devices found currently</string>
+    <string name="toast_refresh_sent">Status refresh request sent</string>
+    <string name="toast_send_failed">Failed to send: %1$s</string>
+    <string name="toast_cmd_delivered">Control command delivered</string>
+    <string name="toast_sub_failed">Subscription failed: %1$s</string>
+    <string name="toast_not_ready">Connection not ready, cannot refresh</string>
+    <string name="toast_status_updated">Device [%1$s] status updated: %2$s</string>
+
+    <string name="title_pump_list">Pump Devices (%1$d)</string>
+    <string name="text_device_id">Device ID: %1$s</string>
+    <string name="text_no_device">No online pumps. Waiting for data…</string>
+    <string name="btn_start_water">Start</string>
+    <string name="btn_stop_water">Stop</string>
+    <string name="btn_start_confirm">Confirm</string>
+
+    <!-- Dynamic Status Localization -->
+    <string name="status_label">Status: </string>
+    <string name="status_offline">Offline</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_refreshing">Refreshing…</string>
+    <string name="status_watering">Watering</string>
+    <string name="status_watering_with_time">Watering (%1$s seconds left)</string>
+    <string name="status_unknown">Unknown (%1$s)</string>
+
+    <!-- Dialog -->
+    <string name="dialog_title">Watering Settings</string>
+    <string name="dialog_target">Target: %1$s</string>
+    <string name="dialog_duration">Duration: %1$d min</string>
+    <string name="dialog_cancel">Cancel</string>
+</resources>
